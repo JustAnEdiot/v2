@@ -23,10 +23,6 @@ div {
     color: var(--color-text);
 }
 
-center {
-	text-align: center;
-}
-
 a {
     color: var(--color-text);
 }
@@ -217,4 +213,18 @@ a:hover {
       100% {
           background-position: 0px 8px;
       }
+  }
+
+  @media only screen and (max-width:800px) {
+    /* For tablets: */
+    command-line {
+      width: 80%;
+      padding: 0;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    command-line {
+      width: 50%;
+    }
   }
