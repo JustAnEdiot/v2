@@ -65,7 +65,7 @@ function command(input){
             temp2 = temp.replaceChars("", "%20");
             temp3 = temp2.replaceChars("#", "%23");
             input = temp3.replaceChars("&", "%26");
-            window.location="https://duckduckgo.com/search?q=" + input;
+            window.location="https://duckduckgo.com/?t=ffab&q=" + input;
     }
 }
 
