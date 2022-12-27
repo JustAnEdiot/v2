@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;400;700&display=swap');
+
+:root {
+	--font: "Lora";
+    --font-lower: "Chivo Mono";
+	--bgcolor: #1f1d2e;
+	--linkcolor: #575279;
+}
+
+/*-----------------------------------------------------------*/
+
+body {
+	background-color: #faf4ed;
+	background-size: cover;
+}
+
+.everything {
+    line-height: 1.8em;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+	display: block;
+	line-height: 2.4em;
+	font-family: var(--font-lower);
+	color: var(--linkcolor);
+	font-size: 1rem;
+	text-decoration: none;
+	outline: none;
+	transition: .2s;
+}
+
+a:hover {
+	color: #56949f;
+}
+
+.pvplayer {
+
+
+    width: 640px;
+       
+    height:360px;
+       
+    border-radius:15px;
+    
+    box-shadow: -2px 5px 0px #286983, 2px 5px 0px #286983, -4px 10px #907aa9, 4px 10px #907aa9, -6px 15px 0px #d7827e, 6px 15px 0px #d7827e, -8px 20px 0px #ea9d34, 8px 20px 0px #ea9d34;
+
+}
+
+.fancy {
+    font-family: "Lora";
+    font-weight: mono;
+    font-size: 3rem;
+    margin: 10px 0px 50px 0px;
+    color: var(--linkcolor);
+	text-shadow: -5px 5px 0px #286983, -10px 10px 0px #907aa9, -15px 15px 0px #d7827e, -20px 20px 0px #ea9d34;
+}
